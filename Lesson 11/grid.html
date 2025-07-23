@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Grid Practice</title>
+    </head>
+    <body style="margin-bottom: 500px;">
+        
+        <div style=" display: grid;
+        grid-template-columns: 100px 100px 200px;">
+            <div style="background-color: lightblue;">Div 1</div>
+            <div style="background-color: pink;">Div 2 <p>any text</p></div>
+            <div style="background-color: lightblue;">200px</div>
+        </div>
+
+        <div style=" display: grid;
+        grid-template-columns: 100px 100px ;
+        margin-top: 10px;">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: pink;">100px<p>any text</p></div>
+            <div style="background-color: pink;">100px</div>
+        
+
+            
+        </div>
+
+        <div style=" display: grid;
+        grid-template-columns: 100px 1fr ;
+        margin-top: 10px;">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: pink;">1fr (takes all the remaining space)</div>
+        </div>
+
+        <div style=" display: grid;
+        grid-template-columns: 100px 1fr 4fr ;
+        margin-top: 10px;">
+            <div style="background-color: lightblue;">100px</div>
+            <div style="background-color: pink;">1fr (takes all the remaining space)</div>
+            <div style="background-color: lightblue;">4fr (4 times bigger wider than de pink one, it's just like a ratio)</div>
+
+            
+        </div>
+
+        <div style=" display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin-top: 10px;">
+            <div style="background-color: lightblue; height: 200px;">1fr</div>
+            <div style="background-color: pink;height: 200px;">1fr</div>
+            <div style="background-color: lightblue;height: 200px;">1fr </div>
+        </div>
+
+        <div style=" display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin-top: 10px;column-gap: 20px;row-gap: 20px;">
+            <div style="background-color: lightblue; height: 200px;">1fr</div>
+            <div style="background-color: pink;height: 200px;">1fr</div>
+            <div style="background-color: lightblue;height: 200px;">1fr </div>
+            <div style="background-color: pink;height: 200px;">1fr</div>
+            <div style="background-color: lightblue;height: 200px;">1fr </div><div style="background-color: pink;height: 200px;">1fr</div>
+
+        </div>
+
+    </body>
+</html>

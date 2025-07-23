@@ -1,0 +1,45 @@
+.flex1{
+    display:flex;
+    flex-direction:row ;
+}
+
+.div1{
+    background-color: pink;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    vertical-align: middle;
+    color: white;
+    background-color: black;
+    
+}
+
+.div2{
+    background-color: lightblue;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+    justify-content: space-between;
+    vertical-align: top;
+}
+
+.p1{
+    margin: 0;
+}
+
+.p{
+    margin: 0;
+    margin-bottom: 10px;
+    color: white;
+    background-color: black;
+}

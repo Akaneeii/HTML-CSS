@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>12e_12f</title>
+        <style>
+            div{
+                font-family: Arial;
+            }
+            .main-box{
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(200, 200, 200);
+                width: 300px;
+                border-radius: 6px;
+            }
+
+            .flex{
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+
+           .not{
+            background-color: rgb(49, 109, 245);
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 15px;
+            font-weight: bold;
+            color: white;
+
+             }
+
+             .main{
+                background-color:  rgb(120, 82, 178);
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding-left: 15px;
+                padding-right: 15px;
+                
+                
+             }
+
+             .div1{
+               color: white;
+               font-weight: bold;
+               
+             }
+
+             .div2{
+                 width: 500px;
+                border: none;
+                margin-top: 12px;
+                margin-bottom: 12px;
+                height: 30px;
+                border-radius: 15px;
+                padding-left: 20px;
+             }
+
+             .div3{
+                background-color: rgb(120, 82, 178);
+                color: white;
+                font-size: 16px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: white;
+                border-radius: 2px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 15px;
+                padding-right: 15px;
+             }
+
+             .main_bis{
+                display: flex;
+                flex-direction: row;
+                justify-content: first;
+                align-items: center;
+
+             }
+
+             .pro{
+                height: 50px;
+                width: 50px;
+                object-fit: cover;
+                border-radius: 25px;
+                margin-right: 15px;
+             }
+             .pp{
+                margin-right: 10px;
+             }
+
+             .infos{
+                width: 200px;
+                line-height: 7px;
+                
+             }
+             .p1,.p2{
+                font-size: 12px;
+                font-family: Arial;
+             }
+
+             .p3{
+                font-size: 10px;
+                font-family: Arial;
+                color: gray;
+             }
+
+             .p1{
+                font-weight: bold;
+             }
+             button{
+                 background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+             }
+        </style>
+    </head>
+    <body>
+        
+        <div class="main-box">
+            <div class="flex">
+                <div>Home</div>
+                <div class="not">14</div>
+            </div>
+            <div class="flex">
+                <div>Notifications</div>
+                <div class="not">3</div>
+            </div>
+            <div class="flex">
+                <div>Messages</div>
+                <div class="not">5</div>
+            </div>
+        </div>
+        <br><br>
+        <p>12f</p>
+        <div class="main">
+            
+            <div class="div1">Home</div>
+           
+            <input class="div2" type="text" placeholder="Search">
+            
+            <div class="div3">Download</div>
+
+        </div>
+        <br><br>
+        <!--  found a new way to create many divs simult
+          div.div(or another name)$*number
+          it also works with any other element
+          
+          and also to comment quickly : CTRL + ?/ key (next to shift ubder enter)-->
+
+
+          <p>12g</p>
+
+          <div class="main_bis">
+            <div class="pp">
+                <img class="pro" src="cat.jpg" alt="">
+            </div>
+            <div class="infos">
+                <p class="p1">Olivier</p>
+                <p class="p2">the cat</p>
+                <p class="p3">Popular</p>
+                </div>
+                <button>Follow</button>
+            </div>
+
+            <div class="main_bis">
+            <div class="pp">
+                <img class="pro" src="cat.jpg" alt="">
+            </div>
+            <div class="infos">
+                <p class="p1">Olivier</p>
+                <p class="p2">the cat</p>
+                <p class="p3">Popular</p>
+                </div>
+                <button>Follow</button>
+            </div>
+            <div class="main_bis">
+            <div class="pp">
+                <img class="pro" src="cat.jpg" alt="">
+            </div>
+            <div class="infos">
+                <p class="p1">Olivier</p>
+                <p class="p2">the cat</p>
+                <p class="p3">Popular</p>
+                </div>
+                <button>Follow</button>
+            </div>
+            <div class="main_bis">
+            <div class="pp">
+                <img class="pro" src="cat.jpg" alt="">
+            </div>
+            <div class="infos">
+                <p class="p1">Olivier</p>
+                <p class="p2">the cat</p>
+                <p class="p3">Popular</p>
+                </div>
+                <button>Follow</button>
+            </div>
+            
+           
+          </div>
+
+       
+    </body>
+</html>

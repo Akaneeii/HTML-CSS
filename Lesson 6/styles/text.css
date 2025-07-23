@@ -1,0 +1,63 @@
+
+    .title
+    {
+        font-family: Arial ;
+        font-size: 28px;
+        font-weight: bold;
+        width: 450px;
+        line-height: 35px;
+        margin-bottom: 20px;
+        
+    }
+    .stat
+    {
+        font-family: Arial;
+        font-size: 22px;
+        line-height: 0px;
+        color: rgb(96, 96, 96);
+        margin-top: 0;
+    }
+
+    .inv
+    {
+         font-family: Arial;
+        font-size: 21px;
+        line-height: 0px;
+        color: rgb(96, 96, 96);;
+        line-height: 70px;
+
+    }
+
+    .des
+    {
+        font-family: Arial ;
+        font-size: 21px;
+        width: 450px;
+        line-height: 35px;
+        color:rgb(96, 96, 96);
+        margin-bottom: 50px;
+        
+    }
+
+    .shop
+    {
+        font-family: Arial;
+        font-size: 14px;
+        background-color: rgb(227,65,64);
+        color: white;
+        text-align: center;
+        padding-top:20px ;
+        padding-bottom: 20px;
+        
+    }
+
+    .under{
+
+        margin-left: 4px;
+    }
+    .under:hover
+    {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
